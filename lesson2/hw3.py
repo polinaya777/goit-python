@@ -38,8 +38,8 @@ while (flag):
         try:
             result = num_1 / num_2
             print(f'Result is {result}')
+            flag = False
         except ZeroDivisionError:
-            print('Number 2 could not be zero')
-        flag = False
+            print('Number 2 could not be zero')        
     else:
         print('This is not an operand!')
